@@ -1,0 +1,35 @@
+.HeaderContent-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16rem;
+}
+
+.HeaderContent-title {
+    font-size: 76px;
+    text-shadow: 8px 8px 20px rgba(0, 0, 0, 1);
+}
+
+.HeaderContent-subtitle {
+    font-size: 24px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+.HeaderContent-header .button {
+    font-size: 24px;
+    border: 2px solid $off-white;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin-top: 7rem;
+    transition: background-color 1s, color 1s;
+}
+
+.HeaderContent-header .button:hover {
+    background-color: $off-white;
+    color: #003366;
+}

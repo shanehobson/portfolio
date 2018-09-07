@@ -1,0 +1,22 @@
+.NavBar-navBar {
+    display: flex;
+}
+
+.NavBar-item {
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+#NavBar-icon {
+    margin-right: auto;
+}
+
+#NavBar-icon > img {
+    width: 5rem;
+    height: 5rem;
+}
