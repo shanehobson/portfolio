@@ -1,6 +1,7 @@
 import React from 'react';
 import ContractGenerator from './portfolio-items/ContractGenerator';
 import LoaderGallery from './portfolio-items/LoaderGallery';
+import HobsonElectric from './portfolio-items/HobsonElectric';
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,8 @@ const Portfolio = () => {
         <ContractGenerator />
         <hr />
         <LoaderGallery />
+        <hr />
+        <HobsonElectric />
         <hr />
     </div>
   );
