@@ -8,6 +8,7 @@ html {
 
 body {
   color: $off-white;
+  background-color: #eaeaea;
   font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
   font-size: $m-size;
   line-height: 1.6;
@@ -24,3 +25,9 @@ button:disabled {
 .is-active {
   font-weight: bold;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+

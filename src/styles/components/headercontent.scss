@@ -21,7 +21,9 @@
 }
 
 .HeaderContent-header .button {
+    display: block;
     font-size: 24px;
+    color: $off-white;
     border: 2px solid $off-white;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
@@ -31,5 +33,5 @@
 
 .HeaderContent-header .button:hover {
     background-color: $off-white;
-    color: #003366;
+    color: #706f6f;
 }
