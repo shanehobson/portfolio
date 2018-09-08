@@ -12,9 +12,7 @@ const HeaderContent = () => {
                 I am a front-end web developer and licensed attorney focused on creating digital solutions to legal problems.
             </div>
             <div className='HeaderContent-button'>
-                <div className='button'>
-                    View My Work
-                </div>
+                <a href='#portfolio' className='button'>View My Work</a>
             </div>
         </div>
     </div>

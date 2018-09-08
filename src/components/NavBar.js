@@ -9,7 +9,7 @@ const NavBar = () => {
                 <img src='/images/icon.png'></img>
             </div>
             <div className='NavBar-item'>
-                <p>Portfolio</p>
+                <p><a href='#portfolio'>Portfolio</a></p>
             </div>
             <div className='NavBar-item'>
                 <p>About</p>

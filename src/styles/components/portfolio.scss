@@ -1,0 +1,83 @@
+.portfolio-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.portfolio-portfolio {
+    color: #706f6f;
+}
+
+.portfolio-contentContainer {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.portfolio-title {
+    color: #333;
+    text-transform: uppercase;
+}
+
+.portfolio-subtitle {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-portfolioItem {
+    display: grid;
+    grid-template-areas: "l l l r r";
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.portfolio-portfolioItemTitle {
+    color: #333;
+}
+
+.portfolio-portfolioItemText p {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-portfolioButtonContainer {
+    margin-top: 2rem;
+}
+
+.portfolio-portfolioButton {
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.portfolio-portfolioButton .button {
+    font-size: 18px;
+    color: $blue;
+    border: 2px solid $blue;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin-top: 7rem;
+    transition: background-color 1s, color 1s;
+    width: 40%;
+}
+
+.portfolio-portfolioButton .button:hover {
+    background-color: $blue;
+    color: $off-white;
+}
+
+
+.portfolio-screenshot {
+    max-height: 700px;
+    max-width: 650px;
+    // border: .25rem solid #333;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+    border-radius: 1rem;
+    margin-top: 3.3rem;
+}
