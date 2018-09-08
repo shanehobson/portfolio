@@ -11,7 +11,7 @@
 
 .portfolio-contentContainer {
     text-align: center;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -31,8 +31,9 @@
 
 .portfolio-portfolioItem {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 4rem;
+    grid-template-areas: "l l l r r";
+    margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 
 .portfolio-portfolioItemTitle {
@@ -57,8 +58,8 @@
 
 .portfolio-portfolioButton .button {
     font-size: 18px;
-    color: #0077be;
-    border: 2px solid #0077be;
+    color: $blue;
+    border: 2px solid $blue;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     margin-top: 7rem;
@@ -67,7 +68,7 @@
 }
 
 .portfolio-portfolioButton .button:hover {
-    background-color: #0077be;
+    background-color: $blue;
     color: $off-white;
 }
 

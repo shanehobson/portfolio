@@ -1,5 +1,6 @@
 import React from 'react';
 import ContractGenerator from './portfolio-items/ContractGenerator';
+import LoaderGallery from './portfolio-items/LoaderGallery';
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,9 @@ const Portfolio = () => {
             </p>
         </div>
         <ContractGenerator />
+        <hr />
+        <LoaderGallery />
+        <hr />
     </div>
   );
 }
