@@ -5,11 +5,12 @@ const HobsonElectric = () => {
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemText'>
             <h2 className='portfolio-portfolioItemTitle'>Hobson Electric, Inc.</h2>
-            <p>Drawing on my expertise as a licensed attorney and my experience practicing law,
-            I created this web application to help freelance web developers protect themselves in customer/client relationships. 
-            The user completes a handful of forms in order to provide the information necessary to generate a contract for web development services,
-            and the app generates a legally binding contract in PDF format.   
-            This app was built using React, Redux, and Material-UI.          
+            <p>This project is a website for an electrical services company.
+            The website contains informatoin regarding the services provided by the company and information about the people who work for the company.
+            The website has a "Contact Us" feature which allows the user
+            to quickly send a request to the company for a free estimate on electrical services.
+            The "Contact Us" feature relies on a Mailer API that I built using Node.js and Express.
+            The website itself was built using Bootstrap and vanilla Javascript.
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
