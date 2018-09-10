@@ -1,7 +1,5 @@
 .contact-container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
+    margin: 4rem auto 5rem auto;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -42,4 +40,28 @@
 .contact-contactButton .button:hover {
     background-color: $blue;
     color: $off-white;
+}
+
+.contact-socialContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-socialContainer > img {
+    cursor: pointer;
+}
+
+.contact-facebookImage {
+    width: 41px;
+    height: 41px;
+}
+
+.contact-githubImage {
+    width: 68px;
+    height: 50px;
 }
