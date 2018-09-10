@@ -15,7 +15,7 @@ const NavBar = () => {
                 <p><a href='#about'>About Me</a></p>
             </div>
             <div className='NavBar-item'>
-                <p>Contact</p>
+            <p><a href='#contact'>Contact</a></p>
             </div>
         </div>
     </div>
