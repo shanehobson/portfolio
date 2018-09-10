@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <h1 className='section-title'>About Me</h1>
             <div className='about-imageContainer'>
-                <img src='/images/profile-pic3.jpg' className='about-pic'></img>
+                <img src='/images/profile-pic3.jpg' className='about-pic' id='about-pic1'></img>
                 <img src='/images/profile-pic2.jpg' className='about-pic' id='about-pic2'></img>
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>

@@ -65,3 +65,9 @@
     width: 68px;
     height: 50px;
 }
+
+@media only screen and (max-width: $iphone-breakpoint) {
+    .contact-contactButton .button {
+        font-size: 18px;
+    }
+}
