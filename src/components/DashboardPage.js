@@ -4,6 +4,7 @@ import HeaderContent from './HeaderContent';
 import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const DashboardPage = () => (
   <div>
@@ -30,6 +31,7 @@ const DashboardPage = () => (
         <Contact />
       </div>
     </div>
+    <Footer />
   </div>
 );
 
