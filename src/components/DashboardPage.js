@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import HeaderContent from './HeaderContent';
 import Portfolio from './Portfolio';
+import About from './About';
 
 const DashboardPage = () => (
   <div>
@@ -16,6 +17,11 @@ const DashboardPage = () => (
     <div className='portfolio-container' id='portfolio'>
       <div className='portfolio-portfolio'>
         <Portfolio />
+      </div>
+    </div>
+    <div className='about-container' id='about'>
+      <div className='about-about'>
+        <About />
       </div>
     </div>
   </div>
