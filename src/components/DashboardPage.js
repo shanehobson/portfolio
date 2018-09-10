@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import HeaderContent from './HeaderContent';
 import Portfolio from './Portfolio';
 import About from './About';
+import Contact from './Contact';
 
 const DashboardPage = () => (
   <div>
@@ -22,6 +23,11 @@ const DashboardPage = () => (
     <div className='about-container' id='about'>
       <div className='about-about'>
         <About />
+      </div>
+    </div>
+    <div className='contact-container' id='contact'>
+      <div className='contact-contact'>
+        <Contact />
       </div>
     </div>
   </div>
