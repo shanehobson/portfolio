@@ -17,6 +17,15 @@
     padding-right: 2rem;
 }
 
+#about-subtitle {
+    margin-top: 4rem;
+    text-indent: 3rem;
+}
+
+#about-subtitle2 {
+    text-indent: 3rem;
+}
+
 .about-imageContainer {
     display: flex;
     justify-content: center;
@@ -32,5 +41,21 @@
 
 #about-pic2,
 #about-pic3 {
-    margin-left: -15px;
+    margin-left: -20px;
+}
+
+.about-listContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-subheading {
+    font-weight: bold;
+}
+
+.about-appLink {
+    color: $blue;
 }
