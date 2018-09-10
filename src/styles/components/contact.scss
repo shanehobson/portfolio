@@ -1,0 +1,45 @@
+.contact-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contact-contact {
+    color: #706f6f;
+}
+
+.contact-contentContainer {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contact-subtitle {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-contactButton {
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.contact-contactButton .button {
+    font-size: 24px;
+    color: $blue;
+    border: 2px solid $blue;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin-top: 7rem;
+    transition: background-color 1s, color 1s;
+    width: 40%;
+}
+
+.contact-contactButton .button:hover {
+    background-color: $blue;
+    color: $off-white;
+}
