@@ -1,5 +1,7 @@
 .NavBar-navBar {
     display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .NavBar-item {
@@ -25,4 +27,14 @@
 #NavBar-icon > img {
     width: 5rem;
     height: 5rem;
+}
+
+@media only screen and (max-width: $tablet-breakpoint) {
+    #NavBar-icon {
+        display: none;
+    }
+
+    .NavBar-navBar {
+        justify-content: space-around;
+    }
 }

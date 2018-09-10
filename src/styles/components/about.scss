@@ -61,3 +61,16 @@
 .about-appLink {
     color: $blue;
 }
+
+@media only screen and (max-width: $desktop-breakpoint) {
+    #about-pic1,
+    #about-pic3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: $tablet-breakpoint) {
+    .about-listContainer {
+        flex-direction: column;
+    }
+}

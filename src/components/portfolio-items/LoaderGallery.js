@@ -3,10 +3,10 @@ import React from 'react';
 const LoaderGallery = () => {
   return (
     <div className='portfolio-portfolioItem'>
-        <div className='portfolio-portfolioItemImage'>
+        <div className='portfolio-portfolioItemImage' id='portfolio-loaderGalleryImage'>
             <a href='#'><img src='/images/loader-gallery.png' className='portfolio-screenshot'></img></a>
         </div>
-        <div className='portfolio-portfolioItemText'>
+        <div className='portfolio-portfolioItemText' id='portfolio-loaderGalleryText'>
             <h2 className='portfolio-portfolioItemTitle'>LoaderGallery.com</h2>
             <p>This web application allows web developers to quickly and easily add loading animations to their websites and web apps
             in order to keep users engaged while pages are loading or while the application makes asynchronous requests to API's.

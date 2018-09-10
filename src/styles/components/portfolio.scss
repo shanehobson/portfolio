@@ -20,7 +20,7 @@
 
 .portfolio-portfolioItem {
     display: grid;
-    grid-template-areas: "l l l r r";
+    grid-template-areas: "l l";
     margin-top: 6rem;
     margin-bottom: 5rem;
 }
@@ -34,6 +34,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .portfolio-portfolioButtonContainer {
@@ -42,7 +44,7 @@
 
 .portfolio-portfolioButton {
     display: inline-block;
-    margin: 1rem 2rem;
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 .portfolio-portfolioButton .button {
@@ -65,8 +67,30 @@
 .portfolio-screenshot {
     max-height: 700px;
     max-width: 650px;
-    // border: .25rem solid #333;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
     border-radius: 1rem;
     margin-top: 3.3rem;
+}
+
+@media only screen and (max-width: $desktop-breakpoint) {
+    .portfolio-portfolioItem {
+       display: flex;
+       flex-direction: column;
+    }
+
+    #portfolio-loaderGalleryImage {
+        order: 2;
+    }
+
+    #portfolio-loaderGalleryText {
+        order: 1;
+    }
+
+    .portfolio-screenshot {
+        width: 100%;
+    }
+
+    .portfolio-portfolioItem {
+        margin-top: 2rem;
+    }
 }
