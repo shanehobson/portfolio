@@ -13,9 +13,9 @@ const Contact = () => {
             </div>
         </div>
         <div className='contact-socialContainer'>
-            <a href='https://www.linkedin.com/in/shane-hobson-1a979158/'><img src='images/linked-in.png'></img></a>
-            <a href='https://www.facebook.com/shane.hobson.3'><img src='images/facebook.png' className='contact-facebookImage'></img></a>
-            <a href='https://github.com/shanehobson'><img src='images/github.png' className='contact-githubImage'></img></a>
+            <a href='https://www.linkedin.com/in/shane-hobson-1a979158/' target='blank'><img src='images/linked-in.png'></img></a>
+            <a href='https://www.facebook.com/shane.hobson.3' target='blank'><img src='images/facebook.png' className='contact-facebookImage'></img></a>
+            <a href='https://github.com/shanehobson' target='blank'><img src='images/github.png' className='contact-githubImage'></img></a>
         </div>
     </div>
   );
