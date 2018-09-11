@@ -9,9 +9,9 @@ const LoaderGallery = () => {
         <div className='portfolio-portfolioItemText' id='portfolio-loaderGalleryText'>
             <h2 className='portfolio-portfolioItemTitle'>LoaderGallery.com</h2>
             <p>This web application allows web developers to quickly and easily add loading animations to their websites and web apps
-            in order to keep users engaged while pages are loading or while the application makes asynchronous requests to API's.
-            The user has the ability to select a color from a color picker, or by entering a HEX or RGBA value.
-            The application then allows the user to easily copy and paste the necessary HTML and CSS code in order to implement the animation into their application.
+            in order to keep users engaged while pages are loading or while the application makes requests to web API's.
+            The user has the ability to select a color from a color picker, or enter a HEX or RGBA value.
+            The application then allows the user to easily copy and paste the necessary HTML and CSS code in order to implement the animation into their application in the user's color of choice.
             This app was built using React, Redux, and Material-UI.
             </p>
             <div className='portfolio-portfolioButtonContainer'>

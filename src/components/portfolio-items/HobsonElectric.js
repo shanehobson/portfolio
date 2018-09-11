@@ -9,8 +9,8 @@ const HobsonElectric = () => {
             The website contains information regarding the services provided by the company and information about the people who work for the company.
             The website has a "Contact Us" feature which allows the user
             to quickly send a request to the company for a free estimate on electrical services.
-            The "Contact Us" feature relies on a Mailer API that I built using Node.js and Express.
-            The website itself was built using Bootstrap and vanilla Javascript.
+            The "Contact Us" feature relies on a back end that I built using Node.js and Express, which takes in form data and sends an email to the company's owner.
+            The front end was built using Bootstrap and vanilla Javascript.
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>

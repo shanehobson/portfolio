@@ -20,7 +20,7 @@ const About = () => {
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
                 I am currently based in beautiful Bend, Oregon. Prior to becoming a web developer, I attended law school and worked as an attorney for three years in Indiana. 
-                I remain a licensed attorney although I no longer practice law on a regular basis. 
+                I remain a licensed attorney. 
                 I am passionate about using my dual skillset to solve legal problems using technology.
                 For example, I have created a <a href='#portfolio' className='about-appLink'>web app</a> that allows freelance developers to generate contracts
                 to help protect them in their relationships with customers and clients.
