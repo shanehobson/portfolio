@@ -9,7 +9,7 @@ const HeaderContent = () => {
                 Shane Hobson
             </div>
             <div className='HeaderContent-subtitle'>
-                I am a front-end web developer and licensed attorney focused on creating digital solutions to legal problems.
+                I am a front-end web developer passionate about bringing ideas to life using web technologies.
             </div>
             <div className='HeaderContent-button'>
                 <a href='#portfolio' className='button'>View My Work</a>
