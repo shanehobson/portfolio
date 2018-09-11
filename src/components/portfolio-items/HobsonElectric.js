@@ -6,7 +6,7 @@ const HobsonElectric = () => {
         <div className='portfolio-portfolioItemText'>
             <h2 className='portfolio-portfolioItemTitle'>Hobson Electric, Inc.</h2>
             <p>This project is a website for an electrical services company.
-            The website contains informatoin regarding the services provided by the company and information about the people who work for the company.
+            The website contains information regarding the services provided by the company and information about the people who work for the company.
             The website has a "Contact Us" feature which allows the user
             to quickly send a request to the company for a free estimate on electrical services.
             The "Contact Us" feature relies on a Mailer API that I built using Node.js and Express.
@@ -14,10 +14,13 @@ const HobsonElectric = () => {
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button'>Explore The App</a>
+                    <a href='https://www.hobsonelectricinc.com' className='button'>Explore The App</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button'>View Source Code</a>
+                    <a href='https://github.com/shanehobson/hobson_electric' className='button'>View Front-End Code</a>
+                </div>
+                <div className='portfolio-portfolioButton'>
+                    <a href='#' className='button'>View Back-End Code</a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@ const ContractGenerator = () => {
                     <a href='#' className='button'>Explore The App</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button'>View Source Code</a>
+                    <a href='https://github.com/shanehobson/contract-generator' className='button'>View Source Code</a>
                 </div>
             </div>
         </div>
