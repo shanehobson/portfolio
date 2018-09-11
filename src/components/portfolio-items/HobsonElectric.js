@@ -14,13 +14,13 @@ const HobsonElectric = () => {
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
-                    <a href='https://www.hobsonelectricinc.com' className='button'>Explore The App</a>
+                    <a href='https://www.hobsonelectricinc.com' className='button' target='blank'>Explore The App</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='https://github.com/shanehobson/hobson_electric' className='button'>View Front-End Code</a>
+                    <a href='https://github.com/shanehobson/hobson_electric' className='button' target='blank'>View Front-End Code</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button'>View Back-End Code</a>
+                    <a href='#' className='button' target='blank'>View Back-End Code</a>
                 </div>
             </div>
         </div>

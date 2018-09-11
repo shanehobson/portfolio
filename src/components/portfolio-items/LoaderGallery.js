@@ -16,10 +16,10 @@ const LoaderGallery = () => {
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
-                    <a href='https://www.loadergallery.com' className='button'>Explore The App</a>
+                    <a href='https://www.loadergallery.com' className='button' target='blank'>Explore The App</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='https://github.com/shanehobson/loaders' className='button'>View Source Code</a>
+                    <a href='https://github.com/shanehobson/loaders' className='button' target='blank'>View Source Code</a>
                 </div>
             </div>
         </div>
