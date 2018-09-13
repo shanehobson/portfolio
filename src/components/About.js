@@ -50,6 +50,7 @@ const About = () => {
                     <p className='about-list'>
                         Visual Studio Code<br />
                         Webpack<br />
+                        Babel<br />
                         Gulp<br />
                         Git and Github<br />
                         Command Line/Terminal<br />

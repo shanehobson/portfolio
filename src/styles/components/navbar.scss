@@ -12,7 +12,8 @@
     font-size: 0.875em;
     text-decoration: none;
     padding: 1em 2em;
-    transition: color 1s;
+    -webkit-transition: color .6s;
+    transition: color .6s;
 }
 
 .NavBar-item:hover {

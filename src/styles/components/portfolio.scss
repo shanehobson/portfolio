@@ -54,7 +54,8 @@
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     margin-top: 7rem;
-    transition: background-color 1s, color 1s;
+    -webkit-transition: background-color .6s, color .6s;
+    transition: background-color .6s, color .6s;
     width: 40%;
 }
 
@@ -72,17 +73,30 @@
     margin-top: 3.3rem;
 }
 
+#portfolio-blindsTrackerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-portfolioSiteText  {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media only screen and (max-width: $desktop-breakpoint) {
     .portfolio-portfolioItem {
        display: flex;
        flex-direction: column;
     }
 
-    #portfolio-loaderGalleryImage {
+    #portfolio-loaderGalleryImage,
+    #portfolio-blindsTrackerImage {
         order: 2;
     }
 
-    #portfolio-loaderGalleryText {
+    #portfolio-loaderGalleryText,
+    #portfolio-blindsTrackerText {
         order: 1;
     }
 
