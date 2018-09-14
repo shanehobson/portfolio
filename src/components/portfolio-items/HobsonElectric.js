@@ -20,12 +20,12 @@ const HobsonElectric = () => {
                     <a href='https://github.com/shanehobson/hobson_electric' className='button' target='blank'>View Front-End Code</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button' target='blank'>View Back-End Code</a>
+                    <a href='https://github.com/shanehobson/mailer_api' className='button' target='blank'>View Back-End Code</a>
                 </div>
             </div>
         </div>
         <div className='portfolio-portfolioItemImage'>
-            <a href='#'><img src='/images/hobson-electric.png' className='portfolio-screenshot'></img></a>
+            <a href='https://www.hobsonelectricinc.com'><img src='/images/hobson-electric.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );

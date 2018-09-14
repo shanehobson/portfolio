@@ -4,7 +4,7 @@ const LoaderGallery = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-loaderGalleryImage'>
-            <a href='#'><img src='/images/loader-gallery.png' className='portfolio-screenshot'></img></a>
+            <a href='https://www.loadergallery.com'><img src='/images/loader-gallery.png' className='portfolio-screenshot'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-loaderGalleryText'>
             <h2 className='portfolio-portfolioItemTitle'>LoaderGallery.com</h2>
