@@ -4,7 +4,7 @@ const BlindsTracker = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://damp-retreat-69685.herokuapp.com/'><img src='/images/blinds-tracker.png' className='portfolio-screenshot'></img></a>
+            <a href='https://damp-retreat-69685.herokuapp.com/' target='blank'><img src='/images/blinds-tracker.png' className='portfolio-screenshot'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Poker Blinds Tracker</h2>

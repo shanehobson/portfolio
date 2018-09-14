@@ -25,7 +25,7 @@ const HobsonElectric = () => {
             </div>
         </div>
         <div className='portfolio-portfolioItemImage'>
-            <a href='https://www.hobsonelectricinc.com'><img src='/images/hobson-electric.png' className='portfolio-screenshot'></img></a>
+            <a href='https://www.hobsonelectricinc.com' target='blank'><img src='/images/hobson-electric.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );

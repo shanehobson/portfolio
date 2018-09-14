@@ -21,7 +21,7 @@ const ContractGenerator = () => {
             </div>
         </div>
         <div className='portfolio-portfolioItemImage'>
-            <a href='#'><img src='/images/contract-generator.png' className='portfolio-screenshot'></img></a>
+            <a href='#'  target='blank'><img src='/images/contract-generator.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );
