@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-react-app",
+  "name": "shane-hobson-portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Shane Hobson",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack --watch",
