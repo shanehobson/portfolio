@@ -4,7 +4,7 @@ const BlindsTracker = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='#'><img src='/images/blinds-tracker.png' className='portfolio-screenshot'></img></a>
+            <a href='https://damp-retreat-69685.herokuapp.com/'><img src='/images/blinds-tracker.png' className='portfolio-screenshot'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Poker Blinds Tracker</h2>
@@ -19,7 +19,7 @@ const BlindsTracker = () => {
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
-                    <a href='#' className='button' target='blank'>Explore The App</a>
+                    <a href='https://damp-retreat-69685.herokuapp.com/' className='button' target='blank'>Explore The App</a>
                 </div>
                 <div className='portfolio-portfolioButton'>
                     <a href='https://github.com/shanehobson/poker-timer' className='button' target='blank'>View Source Code</a>
