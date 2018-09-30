@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <p className='section-subtitle' id='about-subtitle'>
                 I am a front-end web developer who is passionate about designing and building user interfaces. I enjoy bringing ideas to life using web technologies.
-                I am proficient in Javascript, and I prefer working with React and Redux on most projects. I have experience styling web pages with plain CSS,
+                I am proficient in Javascript and have built multiple apps using React and Redux. I have experience styling web pages with plain CSS,
                 including CSS Grid and Flexbox, as well as with 
                 frameworks such as Bootstrap and component libraries like Material-UI. 
                 <br />
