@@ -56,9 +56,8 @@ const About = () => {
                         Command Line/Terminal<br />
                         Heroku<br />
                         Google Domains<br />
-                        Google Hangouts<br />
-                        Trello<br />
-                        Amazon Web Services - Route 53<br />
+                        Chrome Developer Tools<br />
+                        Amazon Web Services - S3, Cloudfront, Route 53<br />
                     </p>
                 </div>
             </div>

@@ -13,8 +13,12 @@ const Contact = () => {
             </div>
         </div>
         <div className='contact-socialContainer'>
-            <a href='https://www.linkedin.com/in/shane-hobson-1a979158/' target='blank'><img src='images/linked-in.png'></img></a>
             <p>Connect with me on LinkedIn</p>
+            <a href='https://www.linkedin.com/in/shane-hobson-1a979158/' target='blank'><img src='images/linked-in.png'></img></a>
+        </div>
+        <div className='contact-socialContainer'>
+            <p>View my GitHub</p>
+            <a href='https://github.com/shanehobson' target='blank'><img src='images/github.png' className='contact-githubImage'></img></a>
         </div>
     </div>
   );

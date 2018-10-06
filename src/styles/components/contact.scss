@@ -23,7 +23,7 @@
 
 .contact-contactButton {
     display: inline-block;
-    margin: 1rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
 }
 
 .contact-contactButton .button {
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -65,7 +65,7 @@
 .contact-githubImage {
     width: 72px;
     height: 50px;
-    margin-right: -8px;
+    margin-right: -4rem;
 }
 
 @media only screen and (max-width: $iphone-breakpoint) {
