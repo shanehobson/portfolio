@@ -11,19 +11,16 @@ const About = () => {
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>
             <p className='section-subtitle' id='about-subtitle'>
-                I am a front-end web developer who is passionate about designing and building user interfaces. I enjoy bringing ideas to life using web technologies.
-                I am proficient in Javascript and have built multiple apps using React and Redux. I have experience styling web pages with plain CSS,
-                including CSS Grid and Flexbox, as well as with 
-                frameworks such as Bootstrap and component libraries like Material-UI. 
+                I am a full-stack web developer who is passionate about bringing ideas to life using web technologies.
+                I am proficient in the tools of the modern web, including React, Angular, Node.js, Express, MongoDB, Redux, Material-UI, Angular Material, SASS, and more.
                 <br />
                 <br />
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
-                I am currently based in beautiful Bend, Oregon. Prior to becoming a web developer, I attended law school and worked as an attorney for three years in Indiana. 
-                I remain a licensed attorney. 
-                I am passionate about using my dual skillset to solve legal problems using technology.
-                For example, I have created a <a href='#portfolio' className='about-appLink'>web app</a> that allows freelance developers to generate contracts
-                to help protect them in their relationships with customers and clients.
+            I work as a front-end web engineer for a startup company in Portland, Oregon. When not working, I enjoy completing freelancing projects for clients, building my own applications, and exploring the beautiful Pacific Northwest.
+            </p>
+            <p className='section-subtitle' id='about-subtitle3'>
+            Prior to becoming a web developer, I attended law school and practiced law for three years as a litigation and trial attorney. I remain a licensed attorney. As a result of this background, I am deeply interested in the intersection between law and technology and I am passionate about using my dual skillset to solve legal problems using technology. 
             </p>
             <div className='about-listContainer'>
                 <div>
@@ -31,16 +28,19 @@ const About = () => {
                         Languages and Frameworks:
                     </p>
                     <p className='about-list'>
-                        HTML<br />
-                        CSS/CSS Grid/Flexbox<br />
-                        SASS<br />
                         Javascript<br />
                         React<br />
                         Redux<br />
+                        Angular <br />
+                        HTML<br />
+                        CSS/CSS Grid/Flexbox<br />
+                        SASS<br />
                         Material-UI<br />
+                        Angular Material<br />
                         Bootstrap<br />
                         Node.js<br />
                         Express<br />
+                        MongoDB<br />
                     </p>
                 </div>
                 <div>

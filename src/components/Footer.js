@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer-contentContainer'>
         <p className='footer-text'>
-            Handcrafted by me &copy; 2018.
+            Handcrafted by me &copy; 2019.
         </p>
     </div>
   );
