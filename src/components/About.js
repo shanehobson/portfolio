@@ -38,6 +38,7 @@ const About = () => {
                         Material-UI<br />
                         Angular Material<br />
                         Bootstrap<br />
+                        D3 <br />
                         Node.js<br />
                         Express<br />
                         MongoDB<br />
@@ -71,6 +72,8 @@ const About = () => {
                         Udemy - The Complete React Web Developer Course (With Redux)<br />
                         Udemy - The Complete Javascript Course 2018<br />
                         Udemy - The Complete Node.js Developer Course<br />
+                        Udemy - Angular7: The Complete Guide<br />
+                        Udemy - Understanding Typescript<br />
                         Udemy - Bootstrap 4 From Scratch<br />
                         Udemy - Ultimate CSS Grid Course<br />
                     </p>
