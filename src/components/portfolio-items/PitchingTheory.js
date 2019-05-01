@@ -16,7 +16,7 @@ const PitchingTheory = () => {
             <h2 className='portfolio-portfolioItemTitle'>Blog Content Management System</h2>
             <p>
             This web application allows content creators to create a multimedia blog post in less than five minutes. Users have the ability to create blog posts containing text, images, and video. The blog posts can be edited or deleted by the author at any time.
-            The app was built using the MEAN stack (MongoDB, Express.js, Angular6, and Node.js). The app exists entirely on the cloud; the database is located on the MongoDB Atlas cloud and the images and videos are hosted on an Amazon Web Services S3 Bucket and served via AWS Cloudfront.
+            The app was built using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). The app exists entirely on the cloud; the database is located on the MongoDB Atlas cloud and the images and videos are hosted on an Amazon Web Services S3 Bucket and served via AWS Cloudfront.
             </p>
             <p>
             Check out the video to the left to see the system in action and watch me create, edit, and delete a blog post in three minutes.

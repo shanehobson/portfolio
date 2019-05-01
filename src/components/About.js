@@ -14,7 +14,6 @@ const About = () => {
                 I am a full-stack web developer who is passionate about bringing ideas to life using web technologies.
                 I am proficient in the tools of the modern web, including React, Angular, Node.js, Express, MongoDB, Redux, Material-UI, Angular Material, SASS, and more.
                 <br />
-                <br />
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
             I work as a front-end web developer for a startup company in Portland, Oregon. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
