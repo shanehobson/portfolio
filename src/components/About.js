@@ -30,7 +30,7 @@ const About = () => {
                         Javascript<br />
                         React<br />
                         Redux<br />
-                        Angular <br />
+                        Angular2+ <br />
                         HTML<br />
                         CSS/CSS Grid/Flexbox<br />
                         SASS<br />
@@ -41,6 +41,7 @@ const About = () => {
                         Node.js<br />
                         Express<br />
                         MongoDB<br />
+                        Testing (Jasmine, Karma)<br />
                     </p>
                 </div>
                 <div>
@@ -48,7 +49,6 @@ const About = () => {
                         Dev Tools:
                     </p>
                     <p className='about-list'>
-                        Visual Studio Code<br />
                         Webpack<br />
                         Babel<br />
                         Gulp<br />
@@ -57,7 +57,7 @@ const About = () => {
                         Heroku<br />
                         Google Domains<br />
                         Chrome Developer Tools<br />
-                        Amazon Web Services - S3, Cloudfront, Route 53<br />
+                        Amazon Web Services - S3, Cloudfront, <br />
                     </p>
                 </div>
             </div>
