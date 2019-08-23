@@ -11,12 +11,11 @@ const About = () => {
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>
             <p className='section-subtitle' id='about-subtitle'>
-                I am a full-stack web developer who is passionate about bringing ideas to life using web technologies.
-                I am proficient in the tools of the modern web, including React, Angular, Node.js, Express, MongoDB, Redux, Material-UI, Angular Material, SASS, and more.
+            I am a full stack web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools of the modern web, including React, Angular, Node.js, Express, MongoDB, and Amazon Web Services. I am a highly motivated self-starter, and I enjoy tackling challenging problems and overcoming them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
                 <br />
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
-            I work as a front-end web developer for a startup company in Portland, Oregon. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
+            I work as a full stack web developer for a startup company in Portland, Oregon. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
             </p>
             <p className='section-subtitle' id='about-subtitle3'>
             Prior to becoming a web developer, I attended law school and practiced law for three years as a litigation and trial attorney. I remain a licensed attorney. As a result of this background, I am deeply interested in the intersection between law and technology and I am passionate about using my dual skillset to solve legal problems using technology. 
@@ -27,20 +26,22 @@ const About = () => {
                         Languages and Frameworks:
                     </p>
                     <p className='about-list'>
-                        Javascript<br />
+                        Angular <br />
                         React<br />
+                        Node.js<br />
+                        Express<br />
+                        MongoDB<br />
                         Redux<br />
-                        Angular2+ <br />
+                        Javascript<br />
+                        Typescript<br />
+                        Java/Spring Boot<br />
                         HTML<br />
-                        CSS/CSS Grid/Flexbox<br />
+                        CSS<br />
                         SASS<br />
                         Material-UI<br />
                         Angular Material<br />
                         Bootstrap<br />
                         D3 <br />
-                        Node.js<br />
-                        Express<br />
-                        MongoDB<br />
                         Testing (Jasmine, Karma)<br />
                     </p>
                 </div>
@@ -57,7 +58,6 @@ const About = () => {
                         Heroku<br />
                         Google Domains<br />
                         Chrome Developer Tools<br />
-                        Amazon Web Services - S3, Cloudfront, <br />
                     </p>
                 </div>
             </div>
@@ -67,11 +67,13 @@ const About = () => {
                         Courses and Certificates:
                     </p>
                     <p className='about-list'>
+                        AWS Certified Cloud Practitioner<br />
                         Team Treehouse - Front-End Web Development Certificate<br />
                         Udemy - The Complete React Web Developer Course (With Redux)<br />
                         Udemy - The Complete Javascript Course 2018<br />
                         Udemy - The Complete Node.js Developer Course<br />
                         Udemy - Angular7: The Complete Guide<br />
+                        Udemy - Master Microservices with Spring Boot and Spring Cloud<br />
                         Udemy - Understanding Typescript<br />
                         Udemy - Bootstrap 4 From Scratch<br />
                         Udemy - Ultimate CSS Grid Course<br />
