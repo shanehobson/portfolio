@@ -11,7 +11,7 @@ const About = () => {
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>
             <p className='section-subtitle' id='about-subtitle'>
-            I am a full stack web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools of the modern web, including React, Angular, Node.js, Express, MongoDB, and Amazon Web Services. I am a highly motivated self-starter, and I enjoy tackling challenging problems and overcoming them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
+            I am a full stack web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools of the modern web, including React, Angular, Go, Node.js, Express, MongoDB, PostgreSQL, and Amazon Web Services. I am a highly motivated self-starter, and I enjoy tackling challenging problems and overcoming them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
                 <br />
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
@@ -28,13 +28,15 @@ const About = () => {
                     <p className='about-list'>
                         Angular <br />
                         React<br />
+                        Redux<br />
                         Node.js<br />
                         Express<br />
                         MongoDB<br />
-                        Redux<br />
+                        PostgreSQL<br />
                         Javascript<br />
                         Typescript<br />
-                        Java/Spring Boot<br />
+                        Go<br />
+                        Java<br />
                         HTML<br />
                         CSS<br />
                         SASS<br />
@@ -42,7 +44,7 @@ const About = () => {
                         Angular Material<br />
                         Bootstrap<br />
                         D3 <br />
-                        Testing (Jasmine, Karma)<br />
+                        Testing (Jasmine, Karma, Newman)<br />
                     </p>
                 </div>
                 <div>
@@ -56,8 +58,7 @@ const About = () => {
                         Git and Github<br />
                         Command Line/Terminal<br />
                         Heroku<br />
-                        Google Domains<br />
-                        Chrome Developer Tools<br />
+                        Amazon Web Services<br />
                     </p>
                 </div>
             </div>
@@ -77,6 +78,7 @@ const About = () => {
                         Udemy - Understanding Typescript<br />
                         Udemy - Bootstrap 4 From Scratch<br />
                         Udemy - Ultimate CSS Grid Course<br />
+                        Udemy - Javascript Algorithms and Data Structures Masterclass<br />
                     </p>
                 </div>
             </div>
