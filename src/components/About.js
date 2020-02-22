@@ -10,15 +10,22 @@ const About = () => {
                 <img src='/images/profile-pic2.jpg' className='about-pic' id='about-pic2'></img>
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>
+
             <p className='section-subtitle' id='about-subtitle'>
-            I am a full stack web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools of the modern web, including React, Angular, Go, Node.js, Express, MongoDB, PostgreSQL, and Amazon Web Services. I am a highly motivated self-starter, and I enjoy tackling challenging problems and overcoming them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
+                I am a full stack web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools and languages of the modern web, including JavaScript, TypeScript, GoLang, Angular, React, NodeJS, Express, and MongoDB. I am also an Amazon Web Services Certified Cloud Practitioner.
                 <br />
             </p>
+
+            <p className='section-subtitle' id='about-subtitle'>
+                I am a highly motivated self-starter, and I enjoy tackling challenging problems and overcoming them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
+                <br />
+            </p>
+
             <p className='section-subtitle' id='about-subtitle2'>
-            I work as a full stack web developer for a startup company in Portland, Oregon. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
+                I work as a full stack web developer for a company in the Portland, Oregon area. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
             </p>
             <p className='section-subtitle' id='about-subtitle3'>
-            Prior to becoming a web developer, I attended law school and practiced law for three years as a litigation and trial attorney. I remain a licensed attorney. As a result of this background, I am deeply interested in the intersection between law and technology and I am passionate about using my dual skillset to solve legal problems using technology. 
+                Prior to becoming a web developer, I attended law school and practiced law for three years as a litigation and trial attorney. I remain a licensed attorney. As a result of this background, I am deeply interested in the intersection between law and technology and I am passionate about using my dual skillset to solve legal problems using technology. 
             </p>
             <div className='about-listContainer'>
                 <div>
@@ -29,14 +36,12 @@ const About = () => {
                         Angular <br />
                         React<br />
                         Redux<br />
-                        Node.js<br />
+                        NodeJS<br />
                         Express<br />
                         MongoDB<br />
-                        PostgreSQL<br />
-                        Javascript<br />
-                        Typescript<br />
-                        Go<br />
-                        Java<br />
+                        JavaScript<br />
+                        TypeScript<br />
+                        Golang<br />
                         HTML<br />
                         CSS<br />
                         SASS<br />
