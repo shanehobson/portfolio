@@ -41,7 +41,7 @@ const About = () => {
                         MongoDB<br />
                         JavaScript<br />
                         TypeScript<br />
-                        Golang<br />
+                        GoLang<br />
                         HTML<br />
                         CSS<br />
                         SASS<br />
