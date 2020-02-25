@@ -4,6 +4,7 @@ import PitchingTheory from './portfolio-items/PitchingTheory';
 import ContractGenerator from './portfolio-items/ContractGenerator';
 import LoaderGallery from './portfolio-items/LoaderGallery';
 import HobsonElectric from './portfolio-items/HobsonElectric';
+import KnechtInsurance from './portfolio-items/KnechtInsurance';
 import BlindsTracker from './portfolio-items/BlindsTracker';
 import PortfolioPage from './portfolio-items/PortfolioPage';
 
@@ -26,9 +27,11 @@ const Portfolio = () => {
         <hr />
         <HobsonElectric />
         <hr />
-        <BlindsTracker />
+        <KnechtInsurance />
         <hr />
         <PortfolioPage />
+        <hr />
+        <BlindsTracker />
         <hr />
     </div>
   );

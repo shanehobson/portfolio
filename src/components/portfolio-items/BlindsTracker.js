@@ -12,7 +12,7 @@ const BlindsTracker = () => {
             At the beginning of the game, the user has the ability to set (a) how frequently blinds will increase, (b) the initial value of the small and big blinds,
             and (c) the value at which blinds will be capped.
             Once the game starts, the timer functionality lets players know how much time is left until the next blinds increase. When the timer runs out, 
-            players are treated to a few seconds of Rick Astley's "Never Gonna Give You Up" before the timer resets itself and the blinds automatically increase.
+            the timer resets itself and the blinds automatically increase.
             Additionally, if there are just two players ("heads up" poker), the alternating arrows next to each player's name allow the players to alternate who pays the big blind each time blinds increase, for fairness purposes.
             I built this app as a comprehensive way to track blinds during friendly poker games at my apartment.
             The app was styled using CSS and the CSS Grid, and the functionality was created using vanilla Javascript.
