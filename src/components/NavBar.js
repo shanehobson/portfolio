@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
@@ -8,13 +8,40 @@ const NavBar = () => {
             <div className='NavBar-item' id='NavBar-icon'>
             </div>
             <div className='NavBar-item'>
-                <p><a href='#portfolio'>Portfolio</a></p>
+              <Link
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                <p>Portfolio</p>
+              </Link>
             </div>
             <div className='NavBar-item'>
-                <p><a href='#about'>About</a></p>
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <p>About</p>
+              </Link>
             </div>
             <div className='NavBar-item'>
-            <p><a href='#contact'>Contact</a></p>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1200}
+              >
+                <p>Contact</p>
+              </Link>
             </div>
         </div>
     </div>

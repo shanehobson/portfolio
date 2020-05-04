@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from "react-scroll";
 
 const HeaderContent = () => {
   return (
@@ -12,7 +12,16 @@ const HeaderContent = () => {
                 I am a full stack web developer passionate about bringing ideas to life using web technologies.
             </div>
             <div className='HeaderContent-button'>
-                <a href='#portfolio' className='button'>View My Work</a>
+       `     <Link
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+              <span className='button'>View My Work</span>
+              </Link>`
             </div>
         </div>
     </div>
