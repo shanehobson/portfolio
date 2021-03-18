@@ -7,6 +7,7 @@ import HobsonElectric from './portfolio-items/HobsonElectric';
 import KnechtInsurance from './portfolio-items/KnechtInsurance';
 import BlindsTracker from './portfolio-items/BlindsTracker';
 import PortfolioPage from './portfolio-items/PortfolioPage';
+import InvoiceGenerator from './portfolio-items/InvoiceGenerator';
 
 const Portfolio = () => {
   return (
@@ -21,6 +22,8 @@ const Portfolio = () => {
         <hr />
         <PitchingTheory />
         <hr />
+        <InvoiceGenerator />
+        <hr />
         <ContractGenerator />
         <hr />
         <LoaderGallery />
@@ -29,9 +32,9 @@ const Portfolio = () => {
         <hr />
         <KnechtInsurance />
         <hr />
-        <PortfolioPage />
-        <hr />
         <BlindsTracker />
+        <hr />
+        <PortfolioPage />
         <hr />
     </div>
   );

@@ -3,9 +3,6 @@ import React from 'react';
 const KnechtInsurance = () => {
   return (
     <div className='portfolio-portfolioItem'>
-        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://mighty-journey-73064.herokuapp.com/' target='blank'><img src='/images/knecht-insurance.png' className='portfolio-screenshot'></img></a>
-        </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Knecht Insurance</h2>
             <p>This is a website for an insurance broker built using HTML, CSS, and vanilla JavaScript.
@@ -23,6 +20,9 @@ const KnechtInsurance = () => {
                     <a href='https://github.com/miwaro/emailer-api' className='button' target='blank'>View Back-End Code</a>
                 </div>
             </div>
+        </div>
+        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
+            <a href='https://mighty-journey-73064.herokuapp.com/' target='blank'><img src='/images/knecht-insurance.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );

@@ -3,6 +3,9 @@ import React from 'react';
 const ContractGenerator = () => {
   return (
     <div className='portfolio-portfolioItem'>
+         <div className='portfolio-portfolioItemImage'>
+            <a href='https://ancient-stream-13100.herokuapp.com/'  target='blank'><img src='/images/contract-generator.png' className='portfolio-screenshot'></img></a>
+        </div>
         <div className='portfolio-portfolioItemText'>
             <h2 className='portfolio-portfolioItemTitle'>Contract Generator</h2>
             <p>Drawing on my expertise as a licensed attorney and my experience practicing law,
@@ -19,9 +22,6 @@ const ContractGenerator = () => {
                     <a href='https://github.com/shanehobson/contract-generator' className='button' target='blank'>View Source Code</a>
                 </div>
             </div>
-        </div>
-        <div className='portfolio-portfolioItemImage'>
-            <a href='https://ancient-stream-13100.herokuapp.com/'  target='blank'><img src='/images/contract-generator.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );
