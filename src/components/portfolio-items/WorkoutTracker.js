@@ -8,7 +8,7 @@ const WorkoutTracker = () => {
             <p>Workout Tracker allows the user to keep a daily log of their workouts and provides the user with analytics concerning the frequency and intensity of their workouts, along with the relative distribution of exercise types and body part usage.
             The app uses the D3 data visualization framework to build graphs and charts giving the user real-time and historic information on their workouts and workout patterns.
             The app features a chart showing the user's activity over the previous 365-day period, which was inspired by the Github annual contributions chart.
-            The front-end of Workout Tracker was built using Angular7, and the backend was built using Node.js and Express. The app makes use of a Mongodb Atlas cloud database.
+            The front-end of Workout Tracker was built using Angular, and the backend was built using Node.js, Express, and a MongoDB cloud database.
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>

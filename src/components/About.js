@@ -22,7 +22,7 @@ const About = () => {
             </p>
 
             <p className='section-subtitle' id='about-subtitle2'>
-                I work fully remotely as a senior full stack web developer for a company based in Seattle, Washington. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
+                I work as a senior full stack web developer for a company based in Seattle, Washington. When not working, I enjoy learning new technologies, building my own applications, and exploring the beautiful Pacific Northwest.
             </p>
             <p className='section-subtitle' id='about-subtitle3'>
                 Prior to becoming a web developer, I attended law school and practiced law for three years as a litigation and trial attorney. I remain a licensed attorney. As a result of this background, I am deeply interested in the intersection between law and technology and I am passionate about using my dual skillset to solve legal problems using technology. 
